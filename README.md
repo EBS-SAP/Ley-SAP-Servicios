@@ -1,15 +1,13 @@
-# 1. Crear un nuevo repositorio local
 mkdir Ley-SAP-Servicios
 cd Ley-SAP-Servicios
 git init
 
-# 2. Crear archivo README
 echo "# Proyecto Ley SAP en Servicios Públicos" > README.md
 
-# 3. Crear carpetas principales
+
 mkdir normatividad jurisprudencia casos-practicos tabla
 
-# 4. Crear archivos dentro de cada carpeta
+
 echo "Artículos relevantes de la Ley 142 de 1994" > normatividad/Ley142-1994.md
 echo "Resolución CREG 070 de 1998 y modificaciones" > normatividad/ResolucionCREG070-1998.md
 echo "Concepto SSPD 674 de 2017" > normatividad/ConceptoSSPD674-2017.md
